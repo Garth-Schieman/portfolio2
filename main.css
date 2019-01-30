@@ -1,0 +1,135 @@
+/* main container styles */
+#mainContainer{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+}
+
+/* styling for navigation bar */
+#navBar{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+        height: 60px;
+        background-color: salmon;
+}
+
+/* styling for navBar unordered list */
+#navBar>ul>li{
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 120px;
+        background-color: rgba(0,0,0,.3);
+}
+
+/* styling navBar anchor tags */
+#navBar a{
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+}
+
+#dropDown {
+        position: relative;
+        display: inline-block;
+}
+      
+#dropDown-Content{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+}
+      
+#dropDown-Content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+      
+#dropDown-Content a:hover {
+        background-color: #ddd;
+}
+      
+#dropDown:hover #dropDown-Content{
+        display: block;
+}
+
+/* header section */
+/* general styling for header */
+#header{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: 1fr;
+        width:100%;
+        height: 420px;
+        /* background-image: url("images/garth.jpg"); */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: right;
+
+}
+
+#box{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding-top:20px;
+        background-color: rgba(0,0,0,.3);
+}
+
+#description{
+        width: 250px;
+        margin-left:40%;
+        border-top: 2px solid salmon;
+        border-bottom: 2px solid salmon;
+        color: #ddd;
+}
+
+#about{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: 1fr;
+        width:100%;
+        /* text-align: center; */
+     
+        background: rgba(0, 0, 0, 0.5);
+}
+
+h2{
+        border-bottom: 1px solid #ddd;
+}
+
+span{
+        border-bottom: 2px solid salmon;
+}
+
+#personalState{
+        text-align: justify;
+        padding-left: 150px;
+        padding-right:150px;
+}
+
+.buttons{
+        width: 10%;
+        height: 45px;
+        background-color: salmon;
+        margin-bottom: 4px;
+        text-decoration: none;
+        color: #ddd;
+}
+
+#signatureBar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: salmon;
+}
