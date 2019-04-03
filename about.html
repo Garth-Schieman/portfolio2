@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio|Garth Schieman</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/about.css">
 </head>
 <body>
  
@@ -19,8 +19,8 @@
                 <li id="dropDown">
                     <a href="#about" id="aboutInfo">About</a>
                     <div id="dropDown-Content">
-                        <a href="work.html">Work Experience</a>
-                        <a href="education.html">Education</a>
+                        <a href="#workExperience">Work Experience</a>
+                        <a href="#education">Education</a>
                     </div>
                 </li>
                 </li>
@@ -29,73 +29,97 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <section id="workExperience">
-            <div class="codeSpace">
-
-                <h2>Codespace</h2>
-
-                <p>Web Development Teacher (Currently still undergoing)</p>
-
-                <span>13-April-18 –</span> 
-                
-                <p>Duties being performed:</p>
-                    
-                <p>lessons- Have interactive lessons with students, help and assist them with coding challenges and monthly projects. One of the duties is to ensure students understand all the coding languages and frameworks covered in the course. (Languages are HTML, CSS, JAVASCRIPT, RESPONSIVE DESIGN, SASS, AND NODE.JS)</p>
-                <p>Bootcamps- Assist with regular bootcamp to ensure that applicants are competent of completing a 6 months coding course (bootcamp covers activities such as problem-solving, typing speed, paying attention to detail and basic coding skills).</p>    
-            </div>
-            <div class="spineRoad">
-                    <h2>Spine Road</h2>
-
-                    <p>Administration Clerk (3-month internship)</p>
-                    
-                    <span>13 Feb ‘17 – 13 April ‘17</span>
-                    
-                    <p>I completed duties such as taking telephone calls, relay messages, receive and dispatch mail.Arrange and participate in meeting.Data Capturing such as typing letters, reports, timetables, class lists, agendas, curriculum documents and updating weekly registers.Photocopying collating, assembling and distributing of documents and circulars.Assisting the school secretary/ admin manager to maintain the filing system.Maintaining manual and computer records of pupil’s personal details. Assist teachers to keep records of learner’s attendance and absenteeism.Assist with supervision of learners in emergencies. Invigilate during examinations and tests. Provide teacher with admin support.</p> 
-            </div>
-            <div>
-                <h2>St Timothy Catholic Church</h2>
+        
+        <section id="aboutContainer">
+            <h1>Employment History</h1>
+            <section id="workExperience">
+                <div class="workExpe">
+                    <img src="images/code-space-logo.png" alt="codeSpaceLogo" width="250px" height="150px">
+                    <div>
+                        <h2>Codespace</h2>
     
-                <p>Volunteer</p>
+                        <p>Web Development Teacher (Currently still undergoing)</p>
     
-                <span>14 April ‘16 – 10 Oct ‘16</span>
+                        <span>13-April-18 –</span> 
+                        
+                        <p>Duties being performed:</p>
+                            
+                        <p>lessons- Have interactive lessons with students, help and assist them with coding challenges and monthly projects. One of the duties is to ensure students understand all the coding languages and frameworks covered in the course. (Languages are HTML, CSS, JAVASCRIPT, RESPONSIVE DESIGN, SASS, AND NODE.JS)</p>
+                        <p>Bootcamps- Assist with regular bootcamp to ensure that applicants are competent of completing a 6 months coding course (bootcamp covers activities such as problem-solving, typing speed, paying attention to detail and basic coding skills).</p> 
+                    </div>
+                </div>
+    
+                <div class="workExpe">
+                    <img src="images/spineRoad-logo.png" alt="spineRoadHighLogo" width="250px" height="150px">
+                                
+                    <div>
+                        <h2>Spine Road</h2>
+    
+                        <p>Administration Clerk (3-month internship)</p>
+                        
+                        <span>13 Feb ‘17 – 13 April ‘17</span>
+                        
+                        <p>I completed duties such as taking telephone calls, relay messages, receive and dispatch mail.Arrange and participate in meeting.Data Capturing such as typing letters, reports, timetables, class lists, agendas, curriculum documents and updating weekly registers.Photocopying collating, assembling and distributing of documents and circulars.Assisting the school secretary/ admin manager to maintain the filing system.Maintaining manual and computer records of pupil’s personal details. Assist teachers to keep records of learner’s attendance and absenteeism.Assist with supervision of learners in emergencies. Invigilate during examinations and tests. Provide teacher with admin support.</p>   
+                    </div>               
+                </div>
+            </section>
+            <div class="workExpe" id="volunteeryWork">
+                <img src="images/church-logo.jpg" alt="churchLogo" width="250px" height="150px">
+                <div>
+                    <h2>St Timothy Catholic Church</h2>
 
-                <p>Sunday School Catechist</p>
+                    <p>Volunteer</p>
+        
+                    <span>14 April ‘16 – 10 Oct ‘16</span>
+    
+                    <p>Sunday School Catechist</p>
+                </div>       
             </div>
         </section>
-
+        
+        
         <section id="education">
-
-            <div id="Salesians">
-                <h2>Salesians Life Choices Academy — Web Development</h2> 
             
-                <span>(6 months full-time course): 2017</span>
-    
-                <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills. We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass. As part of our professional development, we had the opportunity to use online resources such as MOOCs, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting. Taking part in this program has really enhanced my self-awareness in knowing myself better and also guiding me to my purpose in life. This course has taught me to think more analytically and see things more broadly. I was exposed to various seminars, lectures and leadership programs. This helped me make my own decisions in life allowing me to take responsibility for my actions and give me sense of independence.</p>
-            </div>
-            <div id="highSchool">
-                <h2>Glendale Secondary Senior School</h2>
-
-                <p>National Senior Certificate</p>
+            <h2>Eduaction History</h2>
+            <div id="educationInfo">
+                <div id="Salesians">
+                    <img src="./images/Logo-Life-Choices.jpg" alt="lifeChoicesLogo" width="600px" height="250px">
+                    <div id="salesiansInfo">
+                        <h2>Salesians Life Choices Academy — Web Development</h2> 
+            
+                        <span>(6 months full-time course): 2017</span>
+            
+                        <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills. We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass. As part of our professional development, we had the opportunity to use online resources such as MOOCs, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting. Taking part in this program has really enhanced my self-awareness in knowing myself better and also guiding me to my purpose in life. This course has taught me to think more analytically and see things more broadly. I was exposed to various seminars, lectures and leadership programs. This helped me make my own decisions in life allowing me to take responsibility for my actions and give me sense of independence.</p>
+                    </div>
                     
-                <span>Jan ‘12 – Dec ‘16</span>
-                   
-                <h2>Highschool Course:</h2>
+                </div>
+                <div id="highSchool">
+                    <div id="highSchoolInfo">
+                        <h2>Glendale Secondary Senior School</h2>
 
-                <p>Computer Application Technology 
-                <span>(2014 - 2016)</span>:</p>
-                
-                <p>Microsoft Word, Excel, PowerPoint, Access, Web design</p>
+                        <p>National Senior Certificate</p>
+                            
+                        <span>Jan ‘12 – Dec ‘16</span>
+                            
+                        <h2>Highschool Course:</h2>
+        
+                        <p>Computer Application Technology 
+                        <span>(2014 - 2016)</span>:</p>
                     
-                <h2>Leadership role:</h2>
-                
-                <p>Under 19 Rugby Vice Captain</p> 
-                
-                <span>(2013 - 2016)</span>
+                        <p>Microsoft Word, Excel, PowerPoint, Access, Web design</p>
+                            
+                        <h2>Leadership role:</h2>
+                        
+                        <p>Under 19 Rugby Vice Captain</p> 
+                        
+                        <span>(2013 - 2016)</span>
+                    </div>
+                    
+                    <img src="./images/glendale-school-logo.jpg" alt="glendale-school-logo" width="600px" height="250px">
+                </div>
             </div>
         </section>
-
-            
-       <footer id="signatureBar">
+        <footer id="signatureBar">
             <p>Copyright&#160;Garth Schieman</p>
         </footer>
     </section>

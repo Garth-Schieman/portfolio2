@@ -2,49 +2,63 @@
 <html>
 <head>
     <title>Portfolio|Garth Schieman</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/reference.css">
+    
+    <!-- link to font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <section id="mainContainer">
-        <section id="container">
-            <header>
-                <h1>Garth Schieman</h1>
-                <span>Front-End Web Developer</span>
-                <nav>
-                    <ul>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="work.html">Work Experience</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="projects.html">Projects Done</a></li>
-                        <li><a href="references.html">Reference</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
+        <nav id="navBar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                
+                
+                <li id="dropDown">
+                    <a href="#about" id="aboutInfo">About</a>
+                    <div id="dropDown-Content">
+                        <a href="about.html#workExperience">Work Experience</a>
+                        <a href="about.html#education">Education</a>
+                    </div>
+                </li>
+                <li><a href="projects.html">Projects Done</a></li>
+                <li><a href="references.html">Reference</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-            <section id="reference">
-                <img src="" alt="">
-                <h2>Candice Amon</h2>
-                <p>Lifechoices</p>
-                <span>078-575-6863</span>
+        <section id="referenceContainer">
+            <div class="referenceInfo">
+                <img src="./images/lifechoices_candice.jpg" alt="candicePhoto" width="300px" height="300px" class="referenceImages">
+                <h2>Candice Amon<span class="addInfo"><i class="fas fa-plus"></i></span></h2>
+                <p>Lifechoices (Course Manager)</p>
+                <p>078-575-6863</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
+            </div>
+            
+            <div class="referenceInfo">
+                <img src="./images/Codespace-Team-Emma-Engers.jpg" alt="emmaPhoto" width="300px" height="300px" class="referenceImages">
+                <h2>Emma Engers<span class="addInfo"><i class="fas fa-plus"></i></span></h2>
+                <p>Codespace (Supervisor)</p>
+                <p>073-174-8111</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
+            </div>
 
-                <img src="" alt="">
-                <h2>Emma Engers</h2>
-                <p>Codespace</p>
-                <span>073-174-8111</span>
-
-                <img src="" alt="">
-                <h2>Rehana Harnekar</h2>
-                <p>Spine Road High</p>
-                <span>084-581-2688</span>
-            </section>
-            <footer
-                <div id="signatureBar">
-                    <p>Copyright&#160;Garth Schieman</p>
-                </div>
-            </footer>
+            <div class="referenceInfo">
+                <img src="./images/rehanaHarnekar.PNG" alt="rehanaHarnekar" width="300px" height="300px" class="referenceImages">
+                <h2>Rehana Harnekar <span class="addInfo"><i class="fas fa-plus"></i></span></h2>
+                <p>Spine Road High (Deputy Principal)</p>
+                <p>084-581-2688</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
+            </div>
         </section>
+   
+       <footer id="signatureBar">
+            <p>Copyright&#160;Garth Schieman</p>
+        </footer>
     </section>
+<!-- link to external javascript -->
+<script src="main.js"></script>
 </body>
 </html>

@@ -2,38 +2,54 @@
 <html>
 <head>
     <title>Portfolio|Garth Schieman</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/projects.css"/>
 </head>
 <body>
     <section id="mainContainer">
-        <section id="container">
-            <header>
-                <h1>Garth Schieman</h1>
-                <span>Front-End Web Developer</span>
-                <nav>
-                    <ul>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="work.html">Work Experience</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="projects.html">Projects Done</a></li>
-                        <li><a href="references.html">Reference</a></li>
-                        <li><a href="Contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-              
-            <section id="projects">
-
-            </section>
-            
-            <footer>
+        <nav id="navBar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
                 
-                <div id="signatureBar">
-                    <p>Copyright&#160;Garth Schieman</p>
+                
+                <li id="dropDown">
+                    <a href="#about" id="aboutInfo">About</a>
+                    <div id="dropDown-Content">
+                        <a href="about.html#workExperience">Work Experience</a>
+                        <a href="about.html#education">Education</a>
+                    </div>
+                </li>
+                <li><a href="projects.html">Projects Done</a></li>
+                <li><a href="references.html">Reference</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="mainProjectContainer">
+            <section id="projectContainer">
+                <div>
+                    <a href="https://garth-schieman.github.io/adventure/Clint%20Adventures.html"><img src="./images/adventuresCover.PNG" alt="" width="600px" height="300px" class="projectImages"></a>     
                 </div>
-            </footer>
+                <div>
+                    <a href="https://garth-schieman.github.io/Code-4-CT/homepage.html"><img src="./images/code4ctCover.PNG" alt="" width="550px" height="300px" class="projectImages"></a>
+                </div>
+            </section>
+                <div style="text-align:center;">
+                    <a href="https://garth-schieman.github.io/sabc/Homepage.html"><img src="./images/sabcCover.PNG" alt="" width="600px" height="300px" class="projectImages"></a>
+                </div>
+            <section id="projectContainer">
+                <div>
+                    <a href="https://garth-schieman.github.io/fashion/index.html"><img src="./images/fashionCover.PNG" alt="" width="600px" height="300px" class="projectImages"></a>
+                </div>
+                <div>
+                    <a href="https://garth-schieman.github.io/portfolio/index.html"><img src="./images/previousPortfolio.PNG" alt="" width="600px" height="300px" class="projectImages"></a>
+                </div>
+            </section>
         </section>
-    </section>
+       <footer id="signatureBar">
+            <p>Copyright&#160;Garth Schieman</p>
+        </footer>
+</section>
+<!-- link to external javascript -->
+<script src="main.js"></script>
 </body>
 </html>
