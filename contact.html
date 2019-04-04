@@ -3,6 +3,8 @@
 <head>
     <title>Portfolio|Garth Schieman</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     
@@ -15,8 +17,8 @@
                 <li id="dropDown">
                     <a href="#about" id="aboutInfo">About</a>
                     <div id="dropDown-Content">
-                        <a href="about.html">Work Experience</a>
-                        <a href="about.html">Education</a></li>
+                        <a href="about.html#workExperience">Work Experience</a>
+                        <a href="about.html#education">Education</a>
                     </div>
                 </li>
                 <li><a href="projects.html">Projects Done</a></li>
@@ -24,9 +26,39 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
-        
-   
+        <section id="mainContactContainer">
+            <section id="contactDetails" class="contactInfo" style="background-color: rgba(0,0,0,.3);;text-align: center;">
+                <img src="./images/garth.jpg" alt="garthSchieman" width="400px" height="350px" id="contactImage">
+                <p>Garth Schieman</p>
+                <p>078 220 9071</p>
+                <ul id="socialMediaLinks">
+                    <li><i class="fab fa-github"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                </ul>
+            </section>
+            <section id="contactReachOut" class="contactInfo" style="background-color: rgba(0,0,0,.3);">
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="write name...">
+                    <label for="">Surname</label>
+                    <input type="text" placeholder="write surname...">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="" placeholder="write email address..">
+                    <label for="">Services Offered:</label>
+                    <select name="" id=""> 
+                        <option value="">none</option>
+                        <option value="">Creation of a 1 page website</option>
+                        <option value="">Creation of a 5 page website</option>
+                        <option value="">Creation of business cards</option>
+                        <option value="">Creation of logos</option>
+                    </select>
+                    <label for="">Reason Contact:</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="write message..."></textarea>
+                    <button type="submit" id="formButton">Submit</button>  
+                </form>
+            </section>
+        </section>
        <footer id="signatureBar">
             <p>Copyright&#160;Garth Schieman</p>
         </footer>
