@@ -2,8 +2,12 @@
 <html>
 <head>
     <title>Portfolio|Garth Schieman</title>
+    <!-- link to icon for title -->
+    <link rel="icon" type="image/PNG" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/reference.css">
+    <!-- reference to jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <!-- link to font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -31,26 +35,32 @@
         <section id="referenceContainer">
             <div class="referenceInfo">
                 <img src="./images/lifechoices_candice.jpg" alt="candicePhoto" width="300px" height="300px" class="referenceImages">
-                <h2>Candice Amon<span class="addInfo"><i class="fas fa-plus"></i></span></h2>
-                <p>Lifechoices (Course Manager)</p>
-                <p>078-575-6863</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
+                <h2>Candice Amon<span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
+                <div id="detail">
+                    <p>Lifechoices (Course Manager)</p>
+                    <p>067-033-7946</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
+                </div>
             </div>
             
             <div class="referenceInfo">
                 <img src="./images/Codespace-Team-Emma-Engers.jpg" alt="emmaPhoto" width="300px" height="300px" class="referenceImages">
-                <h2>Emma Engers<span class="addInfo"><i class="fas fa-plus"></i></span></h2>
-                <p>Codespace (Supervisor)</p>
-                <p>073-174-8111</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
+                <h2>Emma Engers<span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
+                <div class="detail">
+                    <p>Codespace (Supervisor)</p>
+                    <p>073-174-8111</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
+                </div>
             </div>
 
             <div class="referenceInfo">
                 <img src="./images/rehanaHarnekar.PNG" alt="rehanaHarnekar" width="300px" height="300px" class="referenceImages">
-                <h2>Rehana Harnekar <span class="addInfo"><i class="fas fa-plus"></i></span></h2>
-                <p>Spine Road High (Deputy Principal)</p>
-                <p>084-581-2688</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
+                <h2>Rehana Harnekar <span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
+                <div class="detail">
+                    <p>Spine Road High (Deputy Principal)</p>
+                    <p>084-581-2688</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
+                </div>
             </div>
         </section>
    
@@ -60,5 +70,17 @@
     </section>
 <!-- link to external javascript -->
 <script src="main.js"></script>
+
+<script>
+// references page----------------
+$(document).ready(function(){
+  $("#button").click(function(){
+      $("#detail").fadeToggle();
+    });
+  });
+
+
+
+</script>
 </body>
 </html>

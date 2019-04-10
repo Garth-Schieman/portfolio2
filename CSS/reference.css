@@ -20,6 +20,10 @@
     text-align: justify;
 }
 
+p{
+    display: none;
+}
+
 .addInfo{
     margin-left: 100px;
 }

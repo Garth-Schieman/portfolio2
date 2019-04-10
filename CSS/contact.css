@@ -4,7 +4,7 @@
     grid-template-rows: repeat(1,1fr);
     width: 100%; 
     padding: 20px 0px 20px 0px;
-    background-color: rgba(0,0,0,.3);
+    /* background-size: 100px; */
 }
 
 ul#socialMediaLinks >li{
@@ -30,9 +30,6 @@ textarea{
     text-align: left;
 }
 
-
-
-
 #contactImage{
     border-radius: 50%;
 }
@@ -45,4 +42,9 @@ textarea{
     text-decoration: none;
     border: none;
     color: #ddd;
+}
+
+
+#contactReachOut{
+    background-color: rgba(0,0,0,.3);
 }

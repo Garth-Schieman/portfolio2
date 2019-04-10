@@ -106,13 +106,13 @@
         /* background: rgba(0, 0, 0, 0.5); */
 }
 
-h2{
+/* h2{
         border-bottom: 1px solid #ddd;
 }
 
 span{
         border-bottom: 2px solid salmon;
-}
+} */
 
 #personalState{
         text-align: justify;
@@ -123,6 +123,7 @@ span{
 .buttons{
         width: 10%;
         height: 45px;
+        border: none;
         background-color: salmon;
         margin-bottom: 4px;
         text-decoration: none;
