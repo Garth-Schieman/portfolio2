@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
     <!-- reference to jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- link to font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <section id="mainContainer">
@@ -14,7 +17,7 @@
                     <ul>
                         <li><a href="index.html" class="active">Home</a></li>
                         <li id="dropDown">
-                            <a href="#about" id="aboutInfo">About</a>
+                            <a href="#personalState" id="aboutInfo">About</a>
                             <div id="dropDown-Content">
                                 <a href="about.html#workExperience">Work Experience</a>
                                 <a href="about.html#education">Education</a></li>
@@ -22,22 +25,23 @@
                         </li>
                         <li><a href="projects.html">Projects Done</a></li>
                         <li><a href="references.html">Reference</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             <header id="header">
-                <div class="aboutIntro">
-                    <div id="box">
-                        <img src="images/logo.png" alt="Personal logo"  width="250px" height="200px" style="border-radius:50%;">
-                        <p id="description">Front-End Web Developer</p>  
-                        <a href="documents/Garth Schieman Updated CV.pdf" download="Garth Schieman Updated CV"><button class="buttons">Download CV</button></a>
-                    </div>
-                </div>     
+                <div id="box">
+                    <p id="description">Front-End Web Developer</p>  
+                    <a href="documents/Garth Schieman Updated CV.pdf" download="Garth Schieman Updated CV"><button id="downloadButton">Download CV <i class="fas fa-download"></i></button></a>
+                    <a href="contact.html"><button class="buttons">Contact</button></a>
+                </div>
             </header>
             <section id="about">
+                <div style="text-align:center;">
+                    <h1>Garth Schieman</h1>
+                    <img src="images/logo.png" alt="Personal logo"  width="250px" height="200px" style="border-radius:50%;">
+                </div>
                     
                     <div id="personalState">
-                        <h2><span>About:</span></h2>
+                        <h2>About:</h2>
                         <p>I’m a young, creative and dedicated individual who loves being challenged. I enjoy learning new technology and believe that tech is essential in today's age. My passion for computers has allowed me to develop excellent front-end coding skills in which I display my creativity and imagination.</p>
                         <p>I have strong communication skills, am self-motivated and confident. I am constantly developing my leadership and conflict resolution skills and am assured that I’ll be a huge asset to any company or organisation.</p>
                         <a href="about.html"><button class="buttons">Read More</button></a>

@@ -1,9 +1,10 @@
-/* *{
-        margin: 0px;
-        padding: 0px;
-} */
-
-
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+          
+}
 #workExperience{
         display:grid;
         grid-template-columns:repeat(2,1fr);
@@ -41,6 +42,5 @@
         grid-template-columns:repeat(2,1fr);
         grid-template-rows: 1fr;
         width:100%;
-        /* padding: 0px 10px 0px 10px; */
 }
 

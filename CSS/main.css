@@ -4,6 +4,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         width: 100%;
+        color: dimgray;
 }
 
 /* styling for navigation bar */
@@ -13,7 +14,9 @@
         grid-template-rows: 1fr;
         width: 100%;
         height: 60px;
-        background-color: salmon;
+
+        background-color: #FFFFFF;
+        background-color: black;
 }
 
 /* styling for navBar unordered list */
@@ -21,18 +24,17 @@
         display: inline-block;
         list-style-type: none;
         margin-left: 120px;
-        /* background-color: rgba(0,0,0,.3); */
 }
 
 /* styling navBar anchor tags */
 #navBar a{
         font-size: 24px;
-        color: white;
+        color: #C2C2C2;
         text-decoration: none;
 }
 
 #navBar a:hover{
-        color: darkgray;
+        color: #B12A24;
 
 }
 
@@ -72,33 +74,45 @@
         grid-template-columns:repeat(1,1fr);
         grid-template-rows: 1fr;
         width:100%;
-        height: 420px;
-        /* background-image: url("images/garth.jpg"); */
+        height: 400px;
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position-x: right;
+        background-size: cover;
+        background-image: url("../images/landingPage.jpg");
+        width: 100%;
+        height: 400px;
+        
+        /* background-position-x: right; */
 
 }
 
 #box{
-        width: 100%;
-        height: 400px;
+        
         text-align: center;
-        padding-top:20px;
-        background-color: rgba(0,0,0,.3);
+        margin-top:250px;
+        /* background-color: rgba(0,0,0,.3); */
 }
 
 #description{
         width: 250px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         margin-left:40%;
-        border-top: 2px solid salmon;
-        border-bottom: 2px solid salmon;
+        border-top: 2px solid #B12A24;
+        border-bottom: 2px solid #B12A24;
         color: #ddd;
+}
+/* #6F62F0 */
+#downloadButton{
+        width: 150px;
+        height: 30px;
+        background-color: rgba(0,0,0,.3);
+        border: none;
+        color: #f1f1f1;
 }
 
 #about{
         display:grid;
-        grid-template-columns:repeat(1,1fr);
+        grid-template-columns:repeat(2,1fr);
         grid-template-rows: 1fr;
         width:100%;
         height: 300px;
@@ -116,15 +130,15 @@ span{
 
 #personalState{
         text-align: justify;
-        padding-left: 150px;
-        padding-right:150px;
+        padding-left: 50px;
+        padding-right:50px;
 }
 
 .buttons{
-        width: 10%;
-        height: 45px;
+        width: 150px;
+        height: 30px;
         border: none;
-        background-color: salmon;
+        background-color:#B12A24;
         margin-bottom: 4px;
         text-decoration: none;
         color: #ddd;
@@ -136,6 +150,7 @@ span{
         grid-template-rows: repeat(1,1fr);
         width: 100%;
         text-align: center;
-        color: white;
-        background-color: salmon;
+        color: #C2C2C2;
+        /* background-color: #FFFFFF; */
+         background-color: black;
 }

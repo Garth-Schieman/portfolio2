@@ -4,7 +4,6 @@
     grid-template-rows: repeat(1,1fr);
     width: 100%; 
     padding: 20px 0px 20px 0px;
-    /* background-size: 100px; */
 }
 
 ul#socialMediaLinks >li{
@@ -37,7 +36,7 @@ textarea{
 #formButton{
     width: 30%;
     height: 45px;
-    background-color: salmon;
+    background-color: #B12A24;
     text-align: center;
     text-decoration: none;
     border: none;
