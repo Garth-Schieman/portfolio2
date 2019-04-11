@@ -16,11 +16,9 @@
     padding: 0px 45px 0px 45px;
     text-align: justify;
 }
-
-.addInfo{
-    margin-left: 50px;
+.first{
+    text-align: center;
 }
-
 .referenceImages{
     border-radius: 20%;
 }
