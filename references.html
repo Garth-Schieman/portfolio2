@@ -32,52 +32,58 @@
             </ul>
         </nav>
 
-        <section id="referenceContainer">
-            <div class="referenceInfo">
+    <section id="referenceContainer">
+        <div class="referenceInfo">
+            <div class="first">
                 <img src="./images/lifechoices_candice.jpg" alt="candicePhoto" width="300px" height="300px" class="referenceImages">
-                <h2>Candice Amon<span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
-                <div id="detail">
-                    <p>Lifechoices (Course Manager)</p>
-                    <p>067-033-7946</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
-                </div>
+                <h2>Candice Amon<span class="addInfo" class="button"><i class="fas fa-plus" ></i></span></h2>
             </div>
+            <div class="first-p">
+                <p>Lifechoices (Course Manager)</p>
+                <p>067-033-7946</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
+            </div>
+        </div>
             
-            <div class="referenceInfo">
+        <div class="referenceInfo">
+            <div class="first">
                 <img src="./images/Codespace-Team-Emma-Engers.jpg" alt="emmaPhoto" width="300px" height="300px" class="referenceImages">
-                <h2>Emma Engers<span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
-                <div class="detail">
-                    <p>Codespace (Supervisor)</p>
-                    <p>073-174-8111</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
-                </div>
+                <h2>Emma Engers<span class="addInfo" class="button"><i class="fas fa-plus" ></i></span></h2>
             </div>
+            <div class="first-p">
+                <p>Codespace (Supervisor)</p>
+                <p>073-174-8111</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
+            </div>
+        </div>
 
-            <div class="referenceInfo">
+        <div class="referenceInfo">
+            <div class="first">
                 <img src="./images/rehanaHarnekar.PNG" alt="rehanaHarnekar" width="300px" height="300px" class="referenceImages">
-                <h2>Rehana Harnekar <span class="addInfo"><i class="fas fa-plus" id="button"></i></span></h2>
-                <div class="detail">
-                    <p>Spine Road High (Deputy Principal)</p>
-                    <p>084-581-2688</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
-                </div>
+                <h2>Rehana Harnekar <span class="addInfo" class="button"><i class="fas fa-plus" ></i></span></h2>
             </div>
-        </section>
+            <div class="first-p">
+                <p>Spine Road High (Deputy Principal)</p>
+                <p>084-581-2688</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
+            </div>
+        </div>
+    </section>
    
-       <footer id="signatureBar">
-            <p>Copyright&#160;Garth Schieman</p>
-        </footer>
+    <footer id="signatureBar">
+        <p>Copyright&#160;Garth Schieman</p>
+    </footer>
     </section>
 <!-- link to external javascript -->
 <script src="main.js"></script>
 
 <script>
 // references page----------------
-$(document).ready(function(){
-  $("#button").click(function(){
-      $("#detail").fadeToggle();
-    });
-  });
+
+$('.first-p').hide();   
+$( "div.first" ).click(function() {
+    $(this).next().slideToggle(1000);
+});
 
 
 
