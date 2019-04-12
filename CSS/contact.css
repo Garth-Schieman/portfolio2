@@ -1,49 +1,37 @@
 #mainContactContainer{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(1,1fr);
     width: 100%; 
-    padding: 20px 0px 20px 0px;
+    height: 600px;
+    margin-top: 40px;
 }
 
-ul#socialMediaLinks >li{
-    display: inline;
-    padding: 2px 40px 0px 10px; 
-}
-
-input[type=text],[type=email],select{
+#socialMediaLinks{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
     width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
-
+    height: auto;
+    color: #B12A24;
+    
 }
 
-textarea{
-    width: 100%;
-    height: 150px;
+.iconContainer{
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    cursor: pointer;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin: 10px 0px 5px 130px;
 }
 
-.contactInfo{
-    width: 80%;
-    padding: 20px 60px 20px 60px;
-    text-align: left;
+.iconContainer:hover{
+    background-color:#fff;
 }
 
 #contactImage{
     border-radius: 50%;
-}
-
-#formButton{
-    width: 30%;
-    height: 45px;
-    background-color: #B12A24;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    color: #ddd;
-}
-
-
-#contactReachOut{
-    background-color: rgba(0,0,0,.3);
 }

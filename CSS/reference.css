@@ -22,3 +22,19 @@
 .referenceImages{
     border-radius: 20%;
 }
+
+.referenceCollapsible::after{
+    content: '\002B';
+    color: #B12A24;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+.referenceCollapsible::after{
+    content: '\002B';
+    color: #B12A24;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
