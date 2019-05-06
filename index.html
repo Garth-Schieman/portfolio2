@@ -2,297 +2,253 @@
 <html>
 <head>
     <title>Portfolio|Garth Schieman</title>
-     <!-- link to icon for title -->
+<!-- link to title icon -->
      <link rel="icon" type="image/PNG" href="images/logo.png">
-
-    <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
-    
-    <link rel="stylesheet" type="text/css" href="CSS/about.css">
-
-    
-    <link rel="stylesheet" type="text/css" href="CSS/projects.css"/>
-
-    
-    <link rel="stylesheet" type="text/css" href="CSS/reference.css">
-    
-    <link rel="stylesheet" type="text/css" href="CSS/contact.css"/>
-    <!-- reference to jQuery library -->
+<!-- link to desktop styling and responsiveness -->
+    <link rel="stylesheet" type="text/css" href="CSS/desktop.css"/>
+<!-- link to tablet styling and responsiveness -->
+    <link rel="stylesheet" type="text/css" href="CSS/tablet.css"/>
+<!-- link to mobile styling and responsiveness -->
+    <link rel="stylesheet" type="text/css" href="CSS/mobile.css"/>
+<!-- reference to jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-    <!-- link to font awesome -->
+<!-- link to font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
-    <section id="mainContainer">
-            <nav id="navBar">
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li id="dropDown">
-                            <a href="#personalState" id="aboutInfo">About</a>
-                            <div id="dropDown-Content">
-                                <a href="#workExperience">Work Experience</a>
-                                <a href="#education">Education</a></li>
-                            </div>
-                        </li>
-                        <li><a href="#mainProjectContainer">Projects Done</a></li>
-                        <li><a href="#referenceContainer">Reference</a></li>
-                    </ul>
-                </nav>
-            <a id="topButton"><i class="fas fa-chevron-circle-up"></i></a>    
-            <header id="header">
-                <div id="box">
-                    <p id="description">Front-End Web Developer</p>  
-                    <a href="documents/Garth Schieman Updated CV.pdf" download="Garth Schieman Updated CV"><button id="downloadButton">Download CV <i class="fas fa-download"></i></button></a>
-                    <a href="#mainContactContainer"><button class="buttons">Contact</button></a>
+<!-- container for navbar;links related to specific sections -->
+    <nav id="navBar">
+        <ul>
+            <li><a href="index.html" style="color:red;">Home</a></li>
+            <li id="dropDown">
+                <a href="#personalState" id="aboutInfo">About</a>
+                <div id="dropDown-Content">
+                    <a href="#workExperience">Work Experience</a>
+                    <a href="#education">Education</a></li>
                 </div>
-            </header>
-            <section id="about">
-                <div style="text-align:center;">
-                    <h1>Garth Schieman</h1>
-                    <img src="images/logo.png" alt="Personal logo"  width="250px" height="200px" style="border-radius:50%;">
-                </div>
-                    
-                <div id="personalState">
-                    <h2>About:</h2>
-                    <p>I'm a young, creative and dedicated individual who loves being challenged. I enjoy learning new technology and believe that tech is essential in today's age. My passion for computers has allowed me to develop excellent front-end coding skills in which I display my creativity and imagination.</p>
-                    <p>I have strong communication skills, am self-motivated and confident. I am constantly developing my leadership and conflict resolution skills and am assured that I’ll be a huge asset to any company or organisation.</p>
-                    <a href="about.html"><button class="buttons">Read More</button></a>
-                </div> 
-            </section>
-            <section id="aboutContainer">
-                    <h2 id="employmentHistory">Employment History</h2>
-                    <section id="workExperience">
-                        <div class="workExpe">
-                            <img src="images/code-space-logo.png" alt="codeSpaceLogo" width="250px" height="150px">
-                            <div>
-                                <h2>Codespace</h2>
-            
-                                <p>Web Development Teacher (Currently still undergoing)</p>
-            
-                                <small>13-April-18 –</small> 
-                                
-                                <p>Duties being performed:</p>
-                                    
-                                <p>lessons- Have interactive lessons with students, help and assist them with coding challenges and monthly projects. One of the duties is to ensure students understand all the coding languages and frameworks covered in the course. (Languages are HTML, CSS, JAVASCRIPT, RESPONSIVE DESIGN, SASS, AND NODE.JS)</p>
-                                <p>Bootcamps- Assist with regular bootcamp to ensure that applicants are competent of completing a 6 months coding course (bootcamp covers activities such as problem-solving, typing speed, paying attention to detail and basic coding skills).</p> 
-                            </div>
-                        </div>
-            
-                        <div class="workExpe">
-                            <img src="images/spineRoad-logo.png" alt="spineRoadHighLogo" width="250px" height="150px">
-                                        
-                            <div>
-                                <h2>Spine Road</h2>
-            
-                                <p>Administration Clerk (3-month internship)</p>
-                                
-                                <small>13 Feb ‘17 – 13 April ‘17</small>
-        
-                                <p>Duties being performed:</p>
-                                
-                                <p>I completed duties such as taking telephone calls, relay messages, receive and dispatch mail.Arrange and participate in meeting.Data Capturing such as typing letters, reports, timetables, class lists, agendas, curriculum documents and updating weekly registers.Photocopying collating, assembling and distributing of documents and circulars.Assisting the school secretary/ admin manager to maintain the filing system.Maintaining manual and computer records of pupil’s personal details. Assist teachers to keep records of learner’s attendance and absenteeism.Assist with supervision of learners in emergencies. Invigilate during examinations and tests. Provide teacher with admin support.</p>   
-                            </div>               
-                        </div>
-                    </section>
-                    <div class="workExpe" id="volunteeryWork">
-                        <img src="images/church-logo.jpg" alt="churchLogo" width="250px" height="150px">
-                        <div>
-                            <h2>St Timothy Catholic Church</h2>
-        
-                            <p>Volunteer</p>
-                
-                            <small>14 April ‘16 – 10 Oct ‘16</small>
-            
-                            <p>Sunday School Catechist</p>
-                        </div>       
-                    </div>
-                </section>
-                
-                
-                <section id="education">
-                    
-                    <h2>Eduaction History</h2>
-                    <div id="educationInfo">
-                        <div id="Salesians" class="workExpe">
-                            <img src="./images/Logo-Life-Choices.jpg" alt="lifeChoicesLogo" width="550px" height="250px" class="educationImage">
-                            <div id="salesiansInfo">
-                                <h2>Salesians Life Choices Academy — Web Development</h2> 
-                    
-                                <small>(6 months full-time course): 2017</small>
-                    
-                                <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills. We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass. As part of our professional development, we had the opportunity to use online resources such as MOOCs, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting. Taking part in this program has really enhanced my self-awareness in knowing myself better and also guiding me to my purpose in life. This course has taught me to think more analytically and see things more broadly. I was exposed to various seminars, lectures and leadership programs. This helped me make my own decisions in life allowing me to take responsibility for my actions and give me sense of independence.</p>
-                            </div>
-                        </div>
-                        <div id="highSchool">
-                            <div id="highSchoolInfo" class="workExpe" class="educationImage">
-                                <img src="./images/glendale-school-logo.jpg" alt="glendale-school-logo" width="500px" height="250px">
-        
-                                <h2>Glendale Secondary Senior School</h2>
-        
-                                <p>National Senior Certificate</p>
-                                    
-                                <small>Jan ‘12 – Dec ‘16</small>
-                                    
-                                <h2>Highschool Course:</h2>
-                
-                                <p>Computer Application Technology 
-                                <small>(2014 - 2016)</small>:</p>
-                            
-                                <p>Microsoft Word, Excel, PowerPoint, Access, Web design</p>
-                                    
-                                <h2>Leadership role:</h2>
-                                
-                                <p>Under 19 Rugby Vice Captain
-                                    <small>(2013 - 2016)</small>
-                                </p> 
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <h2>Projects Done:</h2>
-                <section id="mainProjectContainer">
-
-
-                        <div class="slideshow-container">
-        
-                                <div class="mySlides fade">
-                                  <div class="numbertext">1 / 5</div>
-                                  <a href="https://garth-schieman.github.io/adventure/Clint%20Adventures.html" target="_blank"><img src="./images/adventuresCover.PNG" alt="" width="430px" height="240px" class="projectImages"></a>
-                                  <div class="text">Clint Adventures</div>
-                                </div>
-                                
-                                <div class="mySlides fade">
-                                  <div class="numbertext">2 / 5</div>
-                                  <a href="https://garth-schieman.github.io/Code-4-CT/homepage.html" target="_blank"><img src="./images/code4ctCover.PNG" alt="" width="430px" height="240px" class="projectImages"></a>
-                                  <div class="text">Code 4 CT</div>
-                                </div>
-                                
-                                <div class="mySlides fade">
-                                  <div class="numbertext">3 / 5</div>
-                                  <a href="https://garth-schieman.github.io/sabc/Homepage.html" target="_blank"><img src="./images/sabcCover.PNG" alt="" width="430px" height="240px" class="projectImages"></a>
-                                  <div class="text">SABC</div>
-                                </div>
-        
-                                <div class="mySlides fade">
-                                        <div class="numbertext">4 / 5</div>
-                                        <a href="https://garth-schieman.github.io/fashion/index.html" target="_blank"><img src="./images/fashionCover.PNG" alt="" width="430px" height="240px" class="projectImages"></a>
-                                        <div class="text">Skate Fiesta</div>
-                                </div>
-        
-                                <div class="mySlides fade">
-                                        <div class="numbertext">5 / 5</div>
-                                        <a href="https://garth-schieman.github.io/portfolio/index.html" target="_blank"><img src="./images/previousPortfolio.PNG" alt="" width="430px" height="240px" class="projectImages"></a>
-                                        <div class="text">Previous Online Portfolio</div>
-                                      </div>
-                                
-                                <div style="text-align:center">
-                                        <span class="dot" onclick="currentSlide(1)"></span> 
-                                        <span class="dot" onclick="currentSlide(2)"></span> 
-                                        <span class="dot" onclick="currentSlide(3)"></span> 
-                                        <span class="dot" onclick="currentSlide(4)"></span> 
-                                        <span class="dot" onclick="currentSlide(5)"></span> 
-                                      </div>
-                            </div>        
-                </section>
-                <h2>Referances:</h2>
-                <section id="referenceContainer">
-                    
-                        <div class="referenceInfo">
-                            <div class="first">
-                                <img src="./images/lifechoices_candice.jpg" alt="candicePhoto" width="300px" height="300px" class="referenceImages">
-                                <h2 class="referenceCollapsible">Candice Amon</h2>
-                            </div>
-                            <div class="first-p">
-                                <p>Lifechoices (Course Manager)</p>
-                                <p>067-033-7946</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi veritatis omnis voluptatem, perferendis ex consectetur sint ducimus ut! Minima corrupti ducimus non facilis aut magni est ipsam illo atque!</p>
-                            </div>
-                        </div>
-                            
-                        <div class="referenceInfo">
-                            <div class="first">
-                                <img src="./images/Codespace-Team-Emma-Engers.jpg" alt="emmaPhoto" width="300px" height="300px" class="referenceImages">
-                                <h2 class="referenceCollapsible">Emma Engers</h2>
-                            </div>
-                            <div class="first-p">
-                                <p>Codespace (Supervisor)</p>
-                                <p>073-174-8111</p>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi et explicabo error placeat, veniam nihil sunt odit aut in doloremque vero! Dolore tempora error dolores voluptates, fugit debitis sint?</p>
-                            </div>
-                        </div>
-                
-                        <div class="referenceInfo">
-                            <div class="first">
-                                <img src="./images/rehanaHarnekar.PNG" alt="rehanaHarnekar" width="300px" height="300px" class="referenceImages">
-                                <h2 class="referenceCollapsible">Rehana Harnekar</h2>
-                            </div>
-                            <div class="first-p">
-                                <p>Spine Road High (Deputy Principal)</p>
-                                <p>084-581-2688</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium voluptas, quas placeat amet, in cupiditate ipsam vero a quasi totam ex! Odit fugiat voluptas qui necessitatibus doloribus enim ipsum.</p>
-                            </div>
-                        </div>
-                    </section>
-                    <h2>Contact Info</h2>
-                    <section id="mainContactContainer">
-                            <section id="contactDetails" class="contactInfo" style="text-align: center;">
-                                <img src="./images/garth.jpg" alt="garthSchieman" width="400px" height="350px" id="contactImage">
-                                <p>Garth Schieman</p>
-                                <p>garthschieman05@gmail.com</p>
-                                <p>078 220 9071</p>
-                                <div id="socialMediaLinks">
-                                        <div class="iconContainer">
-                                                <i class="fas fa-envelope-open-text"></i>
-                                        </div>
-                                        <div class="iconContainer">
-                
-                                                <i class="fab fa-github"></i>
-                                        </div>
-                                        <div class="iconContainer">
-                
-                                                <i class="fab fa-linkedin-in"></i>
-                                        </div>
-                                        <div class="iconContainer">
-                
-                                                <i class="fab fa-twitter"></i>
-                                        </div>
-                                    </div>
-                            </section>
-                        </section>
-        <footer id="signatureBar">
-            <p>Copyright&#160;Garth Schieman</p>
-        </footer>
+            </li>
+            <li><a href="#mainProjectContainer">Projects Done</a></li>
+            <li><a href="#referenceContainer">Reference</a></li>
+        </ul>
+    </nav>
+<!-- anchor tag for back to top button -->
+    <a id="topButton"><i class="fas fa-chevron-circle-up"></i></a>   
+<!-- header container for landinging image,portfolio description,and buttons for specific functions  -->
+    <header id="header">
+        <div id="box">
+            <p id="description">Front-End Web Developer</p>  
+            <a href="documents/Garth Schieman Updated CV.pdf" download="Garth Schieman Updated CV"><button id="downloadButton">Download CV <i class="fas fa-download"></i></button></a>
+            <a href="#mainContactContainer"><button class="buttons">Contact</button></a>
+        </div>
+    </header>
+<!-- section container for personal logo and personal statement -->
+    <section id="about">
+        <div style="text-align:center;">
+            <h1>Garth Schieman</h1>
+            <img src="images/logo.png" alt="Personal logo"  width="250px" height="200px" style="border-radius:50%;">
+        </div>
+        <div id="personalState">
+            <h2>About:</h2>
+            <p>I'm a young,creative and dedicated individual who loves being challenged.I enjoy learning new technology and believe that tech is essential in today's age.My passion for computers has allowed me to develop excellent front-end coding skills in which I display my creativity and imagination.</p>
+            <p>I have strong communication skills,am self-motivated and confident.I am constantly developing my leadership and conflict resolution skills and am assured that I’ll be a huge asset to any company or organisation.</p>
+            <a href="about.html"><button class="buttons">Read More</button></a>
+        </div> 
     </section>
- <!-- link to external javascript -->
-<script src="main.js">
-</script>
-<script>
-    // back top button----------------
+<!-- h2 heading for employment history -->
+    <h2 id="employmentHistory">Employment History</h2>
+<!-- section container for work experience mentioned and div's to contain each vacancy logo and information-->
+    <section id="workExperience">
+        <div class="workExpe">
+            <img src="images/code-space-logo.png" alt="codeSpaceLogo" width="250px" height="150px">
+            <div>
+                <h2>Codespace</h2>
+                <p>Web Development Teacher</p>
+                <small>13-April-18 – 13-April-19</small> 
+                <p>Duties being performed:</p>     
+                <p>lessons- Have interactive lessons with students, help and assist them with coding challenges and weekly projects. One of the duties is to ensure students understand all the coding languages and frameworks covered in the course. (Languages are HTML, CSS, JAVASCRIPT, RESPONSIVE DESIGN, SASS, AND NODE.JS)</p>
+                <p>Bootcamps- Assist with regular bootcamp to ensure that applicants are competent of completing a 6 months coding course (bootcamp covers activities such as problem-solving,typing speed,paying attention to detail and basic coding skills).</p> 
+            </div>
+        </div>
+        <div class="workExpe">
+            <img src="images/spineRoad-logo.png" alt="spineRoadHighLogo" width="250px" height="150px">                   
+            <div>
+                <h2>Spine Road</h2>
+                <p>Administration Clerk (3-month internship)</p>             
+                <small>13 Feb ‘17 – 13 April ‘17</small>
+                <p>Duties being performed:</p>             
+                <p>I completed duties such as taking telephone calls, relay messages, receive and dispatch mail.Arrange and participate in meeting.Data Capturing such as typing letters,reports,timetables,class lists,agendas,curriculum documents and updating weekly registers.Photocopying collating,assembling and distributing of documents and circulars.Assisting the school secretary/admin manager to maintain the filing system.Maintaining manual and computer records of pupil’s personal details.Assist teachers to keep records of learner’s attendance and absenteeism.Assist with supervision of learners in emergencies.Invigilate during examinations and tests.Provide teacher with admin support.</p>   
+            </div>               
+        </div>
+        <div class="workExpe" id="volunteeryWork">
+            <div>               
+                <img src="images/church-logo.jpg" alt="churchLogo" width="250px" height="150px">
+                <h2>St Timothy Catholic Church</h2>
+                <p>Volunteer</p>     
+                <small>14 April ‘16 – 10 Oct ‘16</small>  
+                <p>Sunday School Catechist</p>
+            </div>       
+        </div>
+    </section>
+<!-- h2 heading for educational history -->
+    <h2>Education History</h2>
+    <section id="educationInfo">
+        <div id="Salesians" class="workExpe">
+            <img src="./images/Logo-Life-Choices.jpg" alt="lifeChoicesLogo" class="educationImage">
+            <div id="salesiansInfo">
+                <h2>Salesians Life Choices Academy — Web Development</h2>  
+                <small>(6 months full-time course)-2017</small> 
+                <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills. We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass. As part of our professional development, we had the opportunity to use online resources such as MOOCs, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting. Taking part in this program has really enhanced my self-awareness in knowing myself better and also guiding me to my purpose in life. This course has taught me to think more analytically and see things more broadly. I was exposed to various seminars, lectures and leadership programs. This helped me make my own decisions in life allowing me to take responsibility for my actions and give me sense of independence.</p>
+            </div>
+        </div>
+        <div id="highSchool">
+            <div id="highSchoolInfo" class="workExpe">
+                <img src="./images/glendale-school-logo.jpg" alt="glendale-school-logo"  class="educationImage">
+                <h2>Glendale Secondary Senior School</h2>
+                <p>National Senior Certificate</p>                  
+                <small>Jan ‘12 – Dec ‘16</small>                  
+                <h2>Highschool Course:</h2>
+                <p>Computer Application Technology<small>(2014 - 2016)</small>:</p>           
+                <p>Microsoft Word, Excel, PowerPoint, Access, Web design</p>                  
+                <h2>Leadership role:</h2>               
+                <p>Under 19 Rugby Vice Captain<small>(2013 - 2016)</small></p>           
+            </div>
+        </div>
+    </section>
+<!-- h2 heading for projects done -->
+    <h2>Projects Done:</h2>
+<!-- section for main project container; slideshow container to contain each project done-->
+    <section id="mainProjectContainer"> 
+        <div class="slideshow-container">
+<!-- div's for each project containing images,indicator of number of projects and project description,with link to specific project  -->
+            <div class="mySlides fade">
+                <div class="numbertext">1/5</div>
+                <a href="https://garth-schieman.github.io/adventure/Clint%20Adventures.html" target="_blank"><img src="./images/adventuresCover.PNG" alt=""  class="projectImages"></a>
+                <div class="text">Clint Adventures</div>
+            </div>            
+            <div class="mySlides fade">
+                <div class="numbertext">2/5</div>
+                <a href="https://garth-schieman.github.io/Code-4-CT/homepage.html" target="_blank"><img src="./images/code4ctCover.PNG" alt=""  class="projectImages"></a>
+                <div class="text">Code 4 CT</div>
+            </div>           
+            <div class="mySlides fade">
+                <div class="numbertext">3/5</div>
+                <a href="https://garth-schieman.github.io/sabc/Homepage.html" target="_blank"><img src="./images/sabcCover.PNG" alt="" class="projectImages"></a>
+                <div class="text">SABC</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4/5</div>
+                <a href="https://garth-schieman.github.io/fashion/index.html" target="_blank"><img src="./images/fashionCover.PNG" alt=""  class="projectImages"></a>
+                <div class="text">Skate Fiesta</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5/5</div>
+                <a href="https://garth-schieman.github.io/portfolio/index.html" target="_blank"><img src="./images/previousPortfolio.PNG" alt="" class="projectImages"></a>
+                <div class="text">Previous Online Portfolio</div>
+            </div>      
+            <div>
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+            </div>
+        </div>        
+    </section>
+<!-- h2 heading for references section -->
+    <h2>References:</h2>
+    <!-- section container for references mentioned -->
+    <section id="referenceContainer">
+<!-- div's for reference image and details -->
+        <div class="referenceInfo">
+            <div class="displayDescription">
+                <img src="./images/lifechoices_candice.jpg" alt="candicePhoto" width="300px" height="300px" class="referenceImages">
+                <h2 class="referenceCollapsible">Candice Amon</h2>
+            </div>
+            <div class="hideDescription">
+                <p>Lifechoices (Course Manager)</p>
+                <p>067-033-7946</p>
+            </div>
+        </div>              
+        <div class="referenceInfo">
+            <div class="displayDescription">
+                <img src="./images/Codespace-Team-Emma-Engers.jpg" alt="emmaPhoto" width="300px" height="300px" class="referenceImages">
+                <h2 class="referenceCollapsible">Emma Engers</h2>
+            </div>
+            <div class="hideDescription">
+                <p>Codespace (Supervisor)</p>
+                <p>073-174-8111</p>
+            </div>
+        </div>
+        <div class="referenceInfo" id="referenceTablet">
+            <div class="displayDescription">
+                <img src="./images/rehanaHarnekar.PNG" alt="rehanaHarnekar" width="300px" height="300px" class="referenceImages">
+                <h2 class="referenceCollapsible">Rehana Harnekar</h2>
+            </div>
+            <div class="hideDescription">
+                <p>Spine Road High (Deputy Principal)</p>
+                <p>084-581-2688</p>
+            </div>
+        </div>     
+    </section>
+<!-- h2 heading for contact section -->
+    <h2>Contact Information:</h2>
+<!-- section container for contact information -->
+    <section id="mainContactContainer">
+        <div> 
+            <img src="./images/garth.jpg" alt="garthSchieman" width="400px" height="350px" id="contactImage">
+        </div>
+        <p>Garth Schieman</p>
+        <p>garthschieman05@gmail.com</p>
+        <p>078 220 9071</p>
+<!-- div's for social media communcations -->
+        <div id="socialMediaLinks">
+            <div class="iconContainer">
+                <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <div class="iconContainer">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="iconContainer">
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="iconContainer">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </section>
+<!-- footer container for copyright signature -->
+    <footer id="signatureBar">
+        <p>Copyright&#160;Garth Schieman</p>
+    </footer>
+<!-- link to external javascript page -->
+    <script src="main.js">
+        
+    </script>
+<!-- script for back top button-------------- -->
+    <script>
+// variable button to initailize back to top button
+        var btn = $('#topButton');
 
-    var btn = $('#topButton');
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 400) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
 
-    $(window).scroll(function() {
-    if ($(window).scrollTop() > 400) {
-        btn.addClass('show');
-    } else {
-        btn.removeClass('show');
-    }
-    });
-
-    btn.on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '400');
-    });
-
-</script>
-<script>
-    // references page----------------
-
-    $('.first-p').hide();   
-    $( "div.first" ).click(function() {
-        $(this).next().fadeIn(1000);
-    });
-</script>
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '400');
+        });
+    </script>
+<!-- script to add text function on reference section- -->
+    <script>
+// jQuery toggle function to hide and display by a click
+        $('.hideDescription').hide();   
+        $( "div.displayDescription" ).click(function() {
+            $(this).next().fadeIn(1000);
+        });
+    </script>
 </body>
 </html>
