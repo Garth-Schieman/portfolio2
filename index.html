@@ -23,12 +23,12 @@
             <li id="dropDown">
                 <a href="#personalState" id="aboutInfo">About</a>
                 <div id="dropDown-Content">
-                    <a href="#workExperience">Work Experience</a>
+                    <a href="#employmentHistory">Work Experience</a>
                     <a href="#education">Education</a></li>
                 </div>
             </li>
-            <li><a href="#mainProjectContainer">Projects Done</a></li>
-            <li><a href="#referenceContainer">Reference</a></li>
+            <li><a href="#projects">Projects Done</a></li>
+            <li><a href="#reference">Reference</a></li>
         </ul>
     </nav>
 <!-- anchor tag for back to top button -->
@@ -38,28 +38,28 @@
         <div id="box">
             <p id="description">Front-End Web Developer</p>  
             <a href="documents/Garth Schieman Updated CV.pdf" download="Garth Schieman Updated CV"><button id="downloadButton">Download CV <i class="fas fa-download"></i></button></a>
-            <a href="#mainContactContainer"><button class="buttons">Contact</button></a>
+            <a href="#contact"><button class="buttons">Contact</button></a>
         </div>
     </header>
 <!-- section container for personal logo and personal statement -->
     <section id="about">
         <div style="text-align:center;">
             <h1>Garth Schieman</h1>
-            <img src="images/logo.png" alt="Personal logo"  width="250px" height="200px" style="border-radius:50%;">
+            <img src="images/logo.png" alt="Personal logo"  width="250px" height="auto" style="border-radius:50%;">
         </div>
         <div id="personalState">
             <h2>About:</h2>
             <p>I'm a young,creative and dedicated individual who loves being challenged.I enjoy learning new technology and believe that tech is essential in today's age.My passion for computers has allowed me to develop excellent front-end coding skills in which I display my creativity and imagination.</p>
             <p>I have strong communication skills,am self-motivated and confident.I am constantly developing my leadership and conflict resolution skills and am assured that I’ll be a huge asset to any company or organisation.</p>
-            <a href="about.html"><button class="buttons">Read More</button></a>
+            <a href="http://www.lifechoices.co.za/coding/garth-schieman-brighter-future" target="_blank"><button class="buttons">Read More</button></a>
         </div> 
     </section>
 <!-- h2 heading for employment history -->
     <h2 id="employmentHistory">Employment History</h2>
 <!-- section container for work experience mentioned and div's to contain each vacancy logo and information-->
     <section id="workExperience">
-        <div class="workExpe">
-            <img src="images/code-space-logo.png" alt="codeSpaceLogo" width="250px" height="150px">
+        <div class="contentAdjustment">
+            <img src="images/code-space-logo.png" alt="codeSpaceLogo" width="250px" height="200px">
             <div>
                 <h2>Codespace</h2>
                 <p>Web Development Teacher</p>
@@ -69,8 +69,8 @@
                 <p>Bootcamps- Assist with regular bootcamp to ensure that applicants are competent of completing a 6 months coding course (bootcamp covers activities such as problem-solving,typing speed,paying attention to detail and basic coding skills).</p> 
             </div>
         </div>
-        <div class="workExpe">
-            <img src="images/spineRoad-logo.png" alt="spineRoadHighLogo" width="250px" height="150px">                   
+        <div class="contentAdjustment">
+            <img src="images/spineRoad-logo.png" alt="spineRoadHighLogo" width="250px" height="200px">                   
             <div>
                 <h2>Spine Road</h2>
                 <p>Administration Clerk (3-month internship)</p>             
@@ -79,20 +79,11 @@
                 <p>I completed duties such as taking telephone calls, relay messages, receive and dispatch mail.Arrange and participate in meeting.Data Capturing such as typing letters,reports,timetables,class lists,agendas,curriculum documents and updating weekly registers.Photocopying collating,assembling and distributing of documents and circulars.Assisting the school secretary/admin manager to maintain the filing system.Maintaining manual and computer records of pupil’s personal details.Assist teachers to keep records of learner’s attendance and absenteeism.Assist with supervision of learners in emergencies.Invigilate during examinations and tests.Provide teacher with admin support.</p>   
             </div>               
         </div>
-        <div class="workExpe" id="volunteeryWork">
-            <div>               
-                <img src="images/church-logo.jpg" alt="churchLogo" width="250px" height="150px">
-                <h2>St Timothy Catholic Church</h2>
-                <p>Volunteer</p>     
-                <small>14 April ‘16 – 10 Oct ‘16</small>  
-                <p>Sunday School Catechist</p>
-            </div>       
-        </div>
     </section>
 <!-- h2 heading for educational history -->
-    <h2>Education History</h2>
+    <h2 id="education">Education History</h2>
     <section id="educationInfo">
-        <div id="Salesians" class="workExpe">
+        <div id="Salesians" class="contentAdjustment">
             <img src="./images/Logo-Life-Choices.jpg" alt="lifeChoicesLogo" class="educationImage">
             <div id="salesiansInfo">
                 <h2>Salesians Life Choices Academy — Web Development</h2>  
@@ -101,7 +92,7 @@
             </div>
         </div>
         <div id="highSchool">
-            <div id="highSchoolInfo" class="workExpe">
+            <div id="highSchoolInfo" class="contentAdjustment">
                 <img src="./images/glendale-school-logo.jpg" alt="glendale-school-logo"  class="educationImage">
                 <h2>Glendale Secondary Senior School</h2>
                 <p>National Senior Certificate</p>                  
@@ -115,10 +106,10 @@
         </div>
     </section>
 <!-- h2 heading for projects done -->
-    <h2>Projects Done:</h2>
+    <h2 id="projects">Projects Done:</h2>
 <!-- section for main project container; slideshow container to contain each project done-->
     <section id="mainProjectContainer"> 
-        <div class="slideshow-container">
+        <div class="slideshow-container" class="contentAdjustment">
 <!-- div's for each project containing images,indicator of number of projects and project description,with link to specific project  -->
             <div class="mySlides fade">
                 <div class="numbertext">1/5</div>
@@ -145,7 +136,7 @@
                 <a href="https://garth-schieman.github.io/portfolio/index.html" target="_blank"><img src="./images/previousPortfolio.PNG" alt="" class="projectImages"></a>
                 <div class="text">Previous Online Portfolio</div>
             </div>      
-            <div>
+            <div style="text-align:center;">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
                 <span class="dot" onclick="currentSlide(3)"></span> 
@@ -155,7 +146,7 @@
         </div>        
     </section>
 <!-- h2 heading for references section -->
-    <h2>References:</h2>
+    <h2 id="reference">References:</h2>
     <!-- section container for references mentioned -->
     <section id="referenceContainer">
 <!-- div's for reference image and details -->
@@ -175,7 +166,7 @@
                 <h2 class="referenceCollapsible">Emma Engers</h2>
             </div>
             <div class="hideDescription">
-                <p>Codespace (Supervisor)</p>
+                <p>Codespace (Teaching-team Supervisor)</p>
                 <p>073-174-8111</p>
             </div>
         </div>
@@ -191,30 +182,32 @@
         </div>     
     </section>
 <!-- h2 heading for contact section -->
-    <h2>Contact Information:</h2>
+    <h2 id="contact">Contact Information:</h2>
 <!-- section container for contact information -->
     <section id="mainContactContainer">
-        <div> 
-            <img src="./images/garth.jpg" alt="garthSchieman" width="400px" height="350px" id="contactImage">
+        <div class="contentAdjustment"> 
+            <img src="./images/garth.jpg" alt="garthSchieman" width="400px" height="auto" id="contactImage">
         </div>
-        <p>Garth Schieman</p>
-        <p>garthschieman05@gmail.com</p>
-        <p>078 220 9071</p>
-<!-- div's for social media communcations -->
-        <div id="socialMediaLinks">
-            <div class="iconContainer">
-                <i class="fas fa-envelope-open-text"></i>
+        <div id="contactInfo">
+            <p>Garth Schieman</p>
+            <p>garthschieman05@gmail.com</p>
+            <p>078 220 9071</p>
+    <!-- div's for social media communcations -->
+            <div id="socialMediaLinks">
+                <div class="iconContainer">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <div class="iconContainer">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="iconContainer">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="iconContainer">
+                    <i class="fab fa-twitter"></i>
+                </div>
             </div>
-            <div class="iconContainer">
-                <i class="fab fa-github"></i>
-            </div>
-            <div class="iconContainer">
-                <i class="fab fa-linkedin-in"></i>
-            </div>
-            <div class="iconContainer">
-                <i class="fab fa-twitter"></i>
-            </div>
-        </div>
+        </div>   
     </section>
 <!-- footer container for copyright signature -->
     <footer id="signatureBar">

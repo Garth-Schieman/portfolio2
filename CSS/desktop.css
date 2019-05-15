@@ -1,7 +1,7 @@
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
 and (min-device-width: 1021px) 
-and (max-device-width: 3000px) 
+and (max-device-width: 4000px) 
 and (-webkit-min-device-pixel-ratio: 1) { 
 
         /* styling for navigation bar */
@@ -11,7 +11,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 grid-template-rows: 1fr;
                 width: 100%;
                 height: 60px;
-                background-color: #FFFFFF;
                 background-color: black;
         }
 
@@ -77,6 +76,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 font-size: 35px;
                 right: 30px;
         }
+
         #topButton:hover{
                 cursor: pointer;
                 color:#B12A24;
@@ -86,6 +86,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 opacity: 1;
                 visibility: visible;
         }
+
         /* header section */
         /* general styling for header */
         #header{
@@ -113,7 +114,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 border-bottom: 2px solid #B12A24;
                 color: #ddd;
         }
-        /* #6F62F0 */
+        
         #downloadButton{
                 width: 150px;
                 height: 50px;
@@ -132,7 +133,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 grid-template-columns:repeat(2,1fr);
                 grid-template-rows: 1fr;
                 width:100%;
-                height: auto;
+                height: 350px;
                 padding-top: 40px;
         }
 
@@ -162,6 +163,13 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 grid-template-columns:repeat(2,1fr);
                 grid-template-rows: 1fr;
                 width:100%;
+
+        }
+
+        .contentAdjustment{
+                text-align: justify;
+                padding-left: 50px;
+                padding-right:50px;
         }
 
         #volunteeryWork{
@@ -170,7 +178,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         }
 
         .educationImage{
-                width:400px;
+                width:100%;
                 height:250px;
                 text-align: center;
         }
@@ -185,59 +193,57 @@ and (-webkit-min-device-pixel-ratio: 1) {
         /* projects---------------------- */
         #mainProjectContainer{
                 width: 100%;
-                height: 600px;
+                height: 500px;
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(1,1fr);
                 grid-template-rows: repeat(1,1fr);
-                text-align: center;
-                background-image: url('../images/projectBackground.jpg');
-                background-repeat: no-repeat;
-                background-size: 100%;
+                background-color: rgba(0, 0, 0, 0.959);
         }
         
         .projectImages{
-                width: 355px;
-                height: 215px;
-                border-radius: 2%;
-        }
-        
-        /* Slideshow container */
-        .slideshow-container {
-                margin: 90px 0px 0px 300px;
+                width: 90%;
+                height: 400px;
+                padding-left: 50px;
+                padding-right:50px;
+                border-radius: 8%;
         }
         
         /* Caption text */
         .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        bottom: 8px;
+                color: #C2C2C2;
+                font-size: 15px;
+                margin-top:10px;
+                text-align: center;
         }
         
         /* Number text (1/3 etc) */
         .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        top: 0;
+                color:#C2C2C2;
+                font-size: 30px;
+                margin-top: 10px;
+                float:right;
+                margin-right: 10px;
         }
         
         /* The dots/bullets/indicators */
-        .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin:4px 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        border: none;
-        display: inline-block;
-        transition: background-color 0.6s ease;
+        .dot { 
+                place-items: center;
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin:4px 2px;
+                background-color: #f2f2f2;
+                border-radius: 50%;
+                border: none;
+                display: inline-block;
+                transition: background-color 0.6s ease;
         }
         
         .active, .dot:hover {
-        background-color: #B12A24;
+                background-color: #B12A24;
         }
-        /* references----------------------------*/
-        
+
+        /* references----------------------------*/  
         #referenceContainer{
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
@@ -266,20 +272,28 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 margin-left: 10px;
                 cursor: pointer;
         }
+
         /* contact------------------------- */
         #mainContactContainer{
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
+                grid-template-columns: repeat(2,1fr);
                 grid-template-rows: repeat(1,1fr);
                 width: 100%; 
                 height: auto;
                 margin-top: 40px;
+                margin-bottom: 20px;
+                position: relative;
                 text-align: center;
         }
         
+#contactInfo{
+        padding-top: 80px;
+}
+
         #socialMediaLinks{
                 width: 100%;
                 height: auto;
+                /* text-align: center; */
                 color: #B12A24;    
         }
         
@@ -288,6 +302,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
                 height: 80px;
                 font-size: 60px;
                 cursor: pointer;
+                text-align: center;
                 align-items: center;
                 background-color: whitesmoke;
                 border-radius: 4px;
